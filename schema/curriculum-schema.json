@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sound It Out Curriculum",
+  "description": "Structure of the Sound It Out curriculum data file. The curriculum IS this data: stages of ordered skills with machine-checkable spine rules in engine_contract. The public repo ships this schema and the light skill-sequence; the fully built curriculum is the paid pack.",
+  "type": "object",
+  "required": ["meta", "stages", "engine_contract"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "version": { "type": "string" },
+        "reference_sequence": { "type": "string", "description": "Ordering reference only; no third-party materials reproduced" },
+        "author_of_record": { "type": "string" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "skills"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "rationale": { "type": "string" },
+          "skills": { "type": "array", "items": { "$ref": "#/definitions/skill" } }
+        }
+      }
+    },
+    "engine_contract": {
+      "type": "object",
+      "description": "Spine rules made machine-checkable: strict sequence, phonics before pictures, decodability validation, no schwa in recorded phonemes, mastery across distinct sessions, errorless retry, dialect acceptance, distributed review.",
+      "properties": {
+        "description": { "type": "string" },
+        "rules": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "definitions": {
+    "skill": {
+      "type": "object",
+      "required": ["id", "stage", "order", "type", "objective", "prereq_ids", "target_items", "mastery"],
+      "properties": {
+        "id": { "type": "string" },
+        "stage": { "oneOf": [{ "type": "string" }, { "type": "integer" }] },
+        "order": { "type": "integer", "description": "Order within the stage" },
+        "type": { "type": "string", "enum": ["phonemic_awareness", "letter_sound", "blend_decode", "heart_word", "decodable_sentence"] },
+        "subtype": { "type": "string" },
+        "objective": { "type": "string" },
+        "teaches_letters": { "type": "boolean" },
+        "prereq_ids": { "type": "array", "items": { "type": "string" } },
+        "grapheme": { "type": "string" },
+        "phoneme": {
+          "type": "object",
+          "properties": {
+            "common": { "type": "string" },
+            "ipa": { "type": "string" },
+            "is_continuant": { "type": "boolean" },
+            "is_vowel": { "type": "boolean" },
+            "schwa_warning": { "type": "boolean", "description": "Stop sound: must be modeled clipped, never with a trailing uh" }
+          }
+        },
+        "uses_graphemes": { "type": "array", "items": { "type": "string" } },
+        "allowed_heart_words": { "type": "array", "items": { "type": "string" } },
+        "target_items": { "type": "array", "description": "Shape varies by type: rhyme pairs, word plus initial phoneme, phoneme lists, graphemed words, heart word parts, or sentences" },
+        "validated_safe_set": { "type": "array", "items": { "type": "string" } },
+        "engine_rule": { "type": "string" },
+        "aae_notes": { "type": "array", "items": { "type": "string" }, "description": "Dialect-valid pronunciations are correct, never errors" },
+        "encoding_round": { "type": "object", "description": "Spell-it-back words reinforcing decode via encode" },
+        "audio_refs": { "type": "object" },
+        "quest_hook": { "type": "string" },
+        "mastery": {
+          "type": "object",
+          "properties": {
+            "rule": { "type": "string" },
+            "accuracy": { "type": "number" },
+            "sessions": { "type": "integer", "description": "Distinct sessions required, never one sitting" }
+          }
+        }
+      }
+    }
+  }
+}

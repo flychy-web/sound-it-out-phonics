@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "note": "This sequence matches the built Sound It Out curriculum exactly and was generated from the source curriculum data. The full built curriculum (scripts, word lists, printables) is the paid pack.",
+  "grapheme_order": [
+    "m",
+    "s",
+    "a",
+    "t",
+    "p",
+    "n",
+    "i",
+    "d",
+    "c",
+    "k",
+    "o",
+    "g",
+    "b",
+    "f",
+    "u"
+  ],
+  "heart_words": [
+    "the"
+  ],
+  "skills": [
+    {
+      "id": "pa-01",
+      "stage": "Pre",
+      "order": 1,
+      "name": "Rhyme recognition",
+      "focus": "Identify whether two spoken words rhyme"
+    },
+    {
+      "id": "pa-02",
+      "stage": "Pre",
+      "order": 2,
+      "name": "First sound isolation",
+      "focus": "Identify the first sound in a spoken word"
+    },
+    {
+      "id": "pa-03",
+      "stage": "Pre",
+      "order": 3,
+      "name": "Oral blending",
+      "focus": "Blend 2 to 3 spoken phonemes into a word (oral, no letters)"
+    },
+    {
+      "id": "pa-04",
+      "stage": "Pre",
+      "order": 4,
+      "name": "Oral segmenting",
+      "focus": "Break a spoken word into its individual phonemes (oral, no letters)"
+    },
+    {
+      "id": "ls-01",
+      "stage": "1",
+      "order": 5,
+      "name": "Letter sound: m",
+      "focus": "/m/"
+    },
+    {
+      "id": "ls-02",
+      "stage": "1",
+      "order": 6,
+      "name": "Letter sound: s",
+      "focus": "/s/"
+    },
+    {
+      "id": "ls-03",
+      "stage": "1",
+      "order": 7,
+      "name": "Letter sound: a",
+      "focus": "/a/ (short a, as in 'cat')"
+    },
+    {
+      "id": "ls-04",
+      "stage": "1",
+      "order": 8,
+      "name": "Letter sound: t",
+      "focus": "/t/"
+    },
+    {
+      "id": "ls-05",
+      "stage": "1",
+      "order": 9,
+      "name": "Letter sound: p",
+      "focus": "/p/"
+    },
+    {
+      "id": "bl-01",
+      "stage": "1",
+      "order": 10,
+      "name": "First blends: VC words",
+      "focus": "at, am, as"
+    },
+    {
+      "id": "bl-02",
+      "stage": "1",
+      "order": 11,
+      "name": "First CVC words",
+      "focus": "mat, sat, pat, tap, map, sap"
+    },
+    {
+      "id": "ls-06",
+      "stage": "2",
+      "order": 12,
+      "name": "Letter sound: n",
+      "focus": "/n/"
+    },
+    {
+      "id": "ls-07",
+      "stage": "2",
+      "order": 13,
+      "name": "Letter sound: i",
+      "focus": "/i/ (short i, as in 'sit')"
+    },
+    {
+      "id": "ls-08",
+      "stage": "2",
+      "order": 14,
+      "name": "Letter sound: d",
+      "focus": "/d/"
+    },
+    {
+      "id": "ls-09",
+      "stage": "2",
+      "order": 15,
+      "name": "Letter sound: c",
+      "focus": "/k/"
+    },
+    {
+      "id": "ls-10",
+      "stage": "2",
+      "order": 16,
+      "name": "Letter sound: k",
+      "focus": "/k/"
+    },
+    {
+      "id": "bl-03",
+      "stage": "2",
+      "order": 17,
+      "name": "CVC words with the wider letter set",
+      "focus": "sit, pin, tin, did, cat, can"
+    },
+    {
+      "id": "hw-01",
+      "stage": "2",
+      "order": 18,
+      "name": "Heart word: the",
+      "focus": "Irregular word taught by heart part, not whole-word memorization"
+    },
+    {
+      "id": "ls-11",
+      "stage": "3",
+      "order": 19,
+      "name": "Letter sound: o",
+      "focus": "/o/ (short o, as in 'hot')"
+    },
+    {
+      "id": "ls-12",
+      "stage": "3",
+      "order": 20,
+      "name": "Letter sound: g",
+      "focus": "/g/"
+    },
+    {
+      "id": "ls-13",
+      "stage": "3",
+      "order": 21,
+      "name": "Letter sound: b",
+      "focus": "/b/"
+    },
+    {
+      "id": "ls-14",
+      "stage": "3",
+      "order": 22,
+      "name": "Letter sound: f",
+      "focus": "/f/"
+    },
+    {
+      "id": "ls-15",
+      "stage": "3",
+      "order": 23,
+      "name": "Letter sound: u",
+      "focus": "/u/ (short u, as in 'cup')"
+    },
+    {
+      "id": "bl-04",
+      "stage": "3",
+      "order": 24,
+      "name": "CVC words across all four short vowels",
+      "focus": "dog, got, big, bug, fun, cup"
+    },
+    {
+      "id": "rd-01",
+      "stage": "3",
+      "order": 25,
+      "name": "First decodable sentences",
+      "focus": "Connected sentences built only from taught graphemes plus the heart word"
+    }
+  ]
+}
