@@ -1,6 +1,7 @@
 # Sound It Out
 
-An open, UFLI-anchored phonics scope and sequence that takes a pre-reader from first sounds to first sentences.
+An open phonics scope and sequence that takes a pre-reader from first sounds to first sentences.
+Created by Chidinma Omai for [Raised to Resist](https://raisedtoresist.com).
 Built for parents and teachers who want structured literacy without an app, a subscription, or anything tracking their kid.
 
 ## What this is
@@ -36,14 +37,13 @@ Try it with your learner before you buy anything.
 
 ## What's in the paid pack
 
-- All 25 skills, fully built across Stages Pre through 3
-- Printable practice materials for every skill
-- Parent scripts, pacing guidance, and mastery checks
+- The teaching guide: all 25 skills, fully built across Stages Pre through 3, with word-for-word parent scripts, pacing guidance, and mastery checks
+- The child workbook: 72 printable pages covering all 26 letters, with tracing, sound boxes, decodable sentences, cut-out word cards, and a certificate
 - Validated decodable sentences for the reading stage
 - Dialect-affirming guidance for parents, grounded in the research on African American English
-- One clean PDF, ready to print and teach
+- Ready to print and teach, single-family or single-classroom license
 
-[Get the full pack](GUMROAD_LINK_TODO)
+Full pack link coming at launch.
 
 ## Why this sequence
 
@@ -51,9 +51,11 @@ See [docs/methodology.md](docs/methodology.md) for the research basis in half a 
 
 ## A note on UFLI
 
-This curriculum is independently developed and anchored to the scope and sequence published by the University of Florida Literacy Institute's UFLI Foundations program. It is not affiliated with, endorsed by, or a product of UFLI or the University of Florida.
+This curriculum is original work, created to align with UFLI's scope and sequence. It was not created by nor endorsed by UFLI or the University of Florida, and it reproduces no UFLI materials.
 
 ## License
 
 The schema, docs, and free sample are released under CC BY-NC-SA 4.0 (see LICENSE.md).
 The paid pack is licensed for single-family or single-classroom use.
+
+Copyright 2026 Chidinma Omai.

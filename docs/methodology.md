@@ -10,4 +10,4 @@ Second, orthographic mapping (Linnea Ehri's term for how words become instantly 
 
 So the spine rules here are strict. Skills are taught in sequence. Nothing appears in practice before it is taught. Every decodable sentence is programmatically validated against the graphemes covered so far. A child moves on at roughly 80 percent mastery, not on a schedule.
 
-The sequence is anchored to UFLI Foundations, the University of Florida Literacy Institute's openly published scope and sequence, chosen because it is evidence-aligned, field-tested at scale, and free of commercial-program lock-in. This curriculum is independently developed and is not affiliated with or endorsed by UFLI or the University of Florida.
+The sequence was created to align with UFLI's scope and sequence, chosen because it is evidence-aligned and field-tested at scale. This curriculum is original work. It was not created by nor endorsed by UFLI or the University of Florida, and it reproduces no UFLI materials.
